@@ -1,0 +1,32 @@
+.showcard{
+    width: 200px;
+    height: 400px;
+    margin: 5px 10px ;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+}
+
+.showcard:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+  transform: scale(1.05,1.05);
+}
+.showcard img{
+    width: 200px;
+    height: 280px;
+}
+.description{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; 
+}
+.genre{
+    color: black;
+}
+.increseheight{
+    height: 20px;
+    text-overflow: hidden;
+    
+}

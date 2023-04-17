@@ -1,0 +1,21 @@
+.peopleCard{
+    width: 200px;
+    height: 340px;
+    margin: 5px 10px ;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+}
+.peopleCard:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+  transform: scale(1.05,1.05);
+}
+
+.peopleCard img{
+    width: 200px;
+    height: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 5px;
+}

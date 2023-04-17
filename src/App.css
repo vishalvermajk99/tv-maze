@@ -1,0 +1,55 @@
+.main-container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background-image: url('./Assets/background-image.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+.input-container{
+  height: 40vh;
+  margin: 20px 40px;
+  color: white;
+  background-color: rgba(98, 98, 98, 0.404);
+  font-weight:9000;
+  text-align: left;
+  margin-top: 40px;
+  padding: 20px 50px;
+}
+.displayCards{
+  min-height: 80vh;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  /* overflow: auto; */
+  margin: 0px 40px;
+  padding: 20px;
+  background-color: rgba(61, 61, 61, 0.434);
+}
+.error{
+  color: red;
+}
+
+.user-input h1{
+  font-size: 45px;
+}
+.user-input p{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.user-input span{
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.input-box{
+  font-size: 35px;
+  text-align: left;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
